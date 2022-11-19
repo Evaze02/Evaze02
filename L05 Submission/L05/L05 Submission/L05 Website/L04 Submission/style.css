@@ -1,0 +1,550 @@
+.logo {
+  width: 8%;
+  padding-left: 30px;
+
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 15px 20px;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Oleo Script', cursive;
+  margin: auto;
+
+}
+
+/* Add a black background color to the top navigation */
+nav {
+  float: right;
+  position: absolute;
+  top: 70px;
+  right: 50px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  font-size: 28px;
+  color: #654321;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(255, 107, 21);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.dropdown {
+  float: left;
+  position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 20px 0px rgba(255, 70, 24, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-size: 22px;
+  color: black;
+  padding: 8px 40px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+video {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-size: contain;
+  bottom: 0px;
+  z-index: -1;
+  width: auto;
+  height: auto;
+}
+
+.visit {
+  background-color: none;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 2px 2px 10px orangered;
+}
+
+.visit2 {
+  background-color: none;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 2px 2px 10px rgb(72, 75, 255);
+}
+
+.visit3 {
+  background-color: none;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 2px 2px 10px #FFD700;
+}
+
+.card {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+  font-family: 'Varela Round', sans-serif;
+  width: auto;
+  margin: 15px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 2px 16px;
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2px;
+  padding: 14px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+}
+
+.logo:hover {
+  transition: 2.00s;
+  -webkit-transition: 2.00s;
+  -moz-transition: 2.00s;
+  -ms-transition: 2.00s;
+  -o-transition: 2.00s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+
+  header {
+    padding: 0px;
+  }
+
+  body {
+
+    margin: 0;
+    font-family: 'Oleo Script', cursive;
+    height: -webkit-fill-available;
+  }
+
+  nav>a {
+    margin-right: 5.5px;
+  }
+
+  span {
+    margin-right: 0px;
+  }
+
+
+   .logo {
+    width: 20%;
+    padding-left: 40%;
+    text-align: center;
+  }
+
+  .header {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    size: 100%;
+  }
+
+  .nav.responsive {
+    position: relative;
+  }
+
+  .grid {
+    display: grid;
+    grid-gap: 2px;
+    padding: 20%;
+    grid-template-columns: 1fr;
+  }
+
+  video {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-size: auto;
+    bottom: 0px;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    border-image: auto;
+  }
+
+  .visit {
+    background-color: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 69px;
+    text-shadow: 2px 2px 10px orangered;
+    margin-bottom: -7%;
+  }
+
+  .visit2 {
+    background-color: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 10px rgb(72, 75, 255);
+    margin-top: 10%;
+    margin-bottom: -7%;
+  }
+
+  .visit3 {
+    background-color: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 10px #FFD700;
+    margin-top: 10%;
+    margin-bottom: -7%;
+  }
+
+
+  .card {
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: white;
+    font-family: 'Varela Round', sans-serif;
+    width: auto;
+    height: auto;
+    right: 15%;
+    margin: auto;
+    margin-bottom: 20%;
+
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  nav {
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    float: right;
+    position: relative;
+    top: 19%;
+    left: -10%;
+  }
+
+  nav a {
+    text-align: center;
+  }
+
+  nav a:hover {
+    background-color: #ddd;
+    color: rgb(255, 107, 21);
+  }
+
+  nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .dropdown {
+    float: left;
+    position: relative;
+  }
+
+  .dropdown-content {
+    display: hidden;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 20px 0px rgba(255, 70, 24, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    font-size: 22px;
+    color: black;
+    padding: 8px 40px;
+    text-decoration: none;
+    display: none;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  */
+
+  /* Add a black background color to the top navigation */
+  .topnav {
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+
+    font-size: 100%;
+    color: #654321;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+  }
+
+  .active {
+    background-color: #04AA6D;
+    color: white;
+
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(255, 107, 21);
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .dropdown {
+    float: left;
+    position: relative;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 20px 0px rgba(255, 70, 24, 0.2);
+    z-index: 1;
+    margin-top: -23px;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    font-size: 14px;
+    color: black;
+    padding: auto;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  @media only screen and (max-width: 425px) {
+
+    nav {
+      display: block;
+      margin: auto;
+      text-align: center;
+      font-size: medium;
+      float: right;
+      position: relative;
+      top: 19%;
+      left: -10%;
+    }
+  
+    nav a {
+      text-align: center;
+    }
+  
+    nav a:hover {
+      background-color: #ddd;
+      color: rgb(255, 107, 21);
+    }
+  
+    nav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+  
+    .dropdown {
+      float: left;
+      padding:0%;
+      position: relative;
+    }
+  
+    .dropdown-content {
+      display: hidden;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 20px 0px rgba(255, 70, 24, 0.2);
+      z-index: 1;
+    }
+  
+    .dropdown-content a {
+      font-size: 22px;
+      color: black;
+      padding: 8px 40px;
+      text-decoration: none;
+      display: none;
+    }
+  
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+  
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+  
+    */
+  
+    /* Add a black background color to the top navigation */
+    .topnav {
+      margin-left: 100px;
+      margin-right: 100px;
+      padding-left: 1000px;
+      align-content: center;
+      overflow: hidden;
+      background-color: #333;
+    }
+  
+    /* Style the links inside the navigation bar */
+    .topnav a {
+  
+      font-size: 100%;
+      color: #654321;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  
+    }
+  
+  }
+
+}
